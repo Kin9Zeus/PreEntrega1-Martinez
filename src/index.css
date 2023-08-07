@@ -74,6 +74,20 @@ a {
     text-decoration:none; 
 }
 a:hover { 
-    color:rgb(59, 77, 64); 
+    color:rgb(40, 177, 165); 
     text-decoration:none; 
 }
+
+.cart-widget {
+    position: relative;
+  }
+  
+  .cart-widget__notification {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 40%;
+    padding: 6px;
+  }
